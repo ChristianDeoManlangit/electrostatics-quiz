@@ -368,7 +368,7 @@ function nextQuestion() {
   attempt = 0;
   currentInput = '';
   keyboardState = {};
-  timeLeft = 30;
+  timeLeft = 60;
   updateTimer();
   renderKeyboard();
   renderGrid();
