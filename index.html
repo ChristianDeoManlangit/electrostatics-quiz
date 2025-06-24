@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electrostatics | Physics Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  <!-- Start Screen -->
+  <div id="start-screen" class="screen active">
+    <main class="quiz-card">
+      <header class="quiz-header">
+        <div class="quiz-question-title">Electrostatics | Physics Quiz</div>
+      </header>
+      <input id="player-name" type="text" placeholder="Enter your name" autocomplete="off" />
+      <button id="start-btn" class="main-btn">Start Game</button>
+    </main>
+  </div>
+
+  <!-- Game Screen -->
+  <div id="game-screen" class="screen">
+    <main class="quiz-card">
+      <header class="quiz-header">
+        <div id="question-number" class="quiz-question-title"></div>
+        <div id="question-text" class="quiz-instructions"></div>
+      </header>
+      <section class="quiz-wordle-area">
+        <div id="wordle-grid" class="wordle-grid"></div>
+        <div id="keyboard" class="keyboard"></div>
+      </section>
+      <div class="quiz-status">
+        <div id="score" class="status-pill"></div>
+        <div id="timer" class="status-pill"></div>
+      </div>
+    </main>
+  </div>
+
+  <!-- End Screen -->
+  <div id="end-screen" class="screen">
+    <main class="quiz-card">
+      <header class="quiz-header">
+        <div class="quiz-question-title">Game Over</div>
+      </header>
+      <div id="final-score" class="status-pill" style="margin-bottom:1.2rem;"></div>
+      <button id="restart-btn" class="main-btn">Play Again</button>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
