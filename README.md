@@ -1,73 +1,65 @@
 # ⚡ Electrostatics | Quiz Website  
 
-A Wordle-inspired interactive quiz site designed as a **complementary activity** to the original [Electrostatics | Physics Website](https://github.com/ChristianDeoManlangit/electrostatics-physics-website). Built with a focus on engagement, integrity, and modern design principles.
+A Wordle-inspired interactive quiz site that complements the original [Electrostatics | Physics Website](https://github.com/ChristianDeoManlangit/electrostatics-physics-website). This quiz reinforces concepts through game-based learning while promoting academic honesty.
 
-![Tech](https://img.shields.io/badge/HTML-e34c26?logo=html5&logoColor=white)
-![Tech](https://img.shields.io/badge/CSS-563d7c?logo=css3&logoColor=white)
-![Tech](https://img.shields.io/badge/JavaScript-f1e05a?logo=javascript&logoColor=black)
+![Tech](https://img.shields.io/badge/HTML-Markup-e34c26)
+![Tech](https://img.shields.io/badge/CSS-Styling-563d7c)
+![Tech](https://img.shields.io/badge/JavaScript-Logic-f1e05a)
 
 ---
 
 ## 📖 Overview
 
-This website serves as a gamified quiz platform for students studying **Electrostatics**.  
-It simulates a **Wordle-style guessing game**—but instead of random words, users are challenged to answer physics-related questions. Each game session gives the player **3 chances** to guess the answer using a letter-based grid system.
+This project serves as a learning companion to the main Electrostatics website.  
+It features a mini quiz styled after the popular Wordle game but is designed for classroom implementation.  
+Students have three tries to guess a word related to physics concepts, and results are shown at the end of the session.
 
-It’s tightly integrated with the main Electrostatics website and helps reinforce concepts through interactive recall.
+The quiz restricts tab switching and refresh behavior to prevent cheating and ensures results are authentic and final.
 
 ---
 
 ## ✨ Features
 
-- 🌙 **Dark mode only** (no light theme available)  
-- 🧠 **Wordle-style mechanics** (3 chances to guess a physics term based on a prompt)  
-- 📱 **Fully responsive** UI optimized for all screen sizes  
-- 🎞️ **Smooth animations** for input fields, highlights, and real-time letter evaluation  
-- ⏱️ **Functional timer** that tracks answer duration  
-- 🛡️ **Anti-cheating mechanisms**:  
-  - Error screen triggers if the tab loses focus, is closed, or minimized  
-  - Only one playthrough per session is allowed  
-  - Score is locked and set to zero if cheating is detected  
-- 📊 **Automatic scoring system**  
-- 🧾 **Dynamic receipt system**:  
-  - Displays session summary after the game  
-  - Useful for identifying players (temporary client-side only)
+- 🌙 Dark-only visual theme  
+- 🎮 Wordle-like quiz mechanics using physics keywords  
+- 🧮 Score computation after one attempt  
+- 🧾 Receipt-style summary showing correct answer and score  
+- ⛔ Anti-cheat system with tab focus detection  
+- 🔐 One-attempt policy with automatic zeroing on violation  
+- 📱 Mobile and tablet responsive layout  
+- 🎞️ Subtle animations on key input and state transitions  
 
 ---
 
 ## 🖼️ Screenshots
 
-| ![Start Screen](https://dummyimage.com/600x400/000/fff&text=Start+Screen) | ![Gameplay 1](https://dummyimage.com/600x400/111/fff&text=Gameplay+1) |
+| ![Start](https://dummyimage.com/600x400/000/fff&text=Start+Screen) | ![Quiz](https://dummyimage.com/600x400/111/fff&text=Quiz+Gameplay) |
 |:--:|:--:|
-| **Start Screen** | **Gameplay 1** |
+| **Start Screen** | **Gameplay** |
 
-| ![Gameplay 2](https://dummyimage.com/600x400/111/fff&text=Gameplay+2) | ![Gameplay 3](https://dummyimage.com/600x400/111/fff&text=Gameplay+3) |
+| ![Score](https://dummyimage.com/600x400/222/fff&text=Score+Summary) | ![Anti-Cheat](https://dummyimage.com/600x400/333/fff&text=Anti-Cheat+Popup) |
 |:--:|:--:|
-| **Gameplay 2** | **Gameplay 3** |
+| **Score Summary** | **Anti-Cheat Notice** |
 
-| ![Error](https://dummyimage.com/600x400/222/fff&text=Anti-Cheat+Error) | ![Receipt](https://dummyimage.com/600x400/333/fff&text=Score+Receipt) |
+| ![Mobile](https://dummyimage.com/300x600/444/fff&text=Mobile+View) | ![Receipt](https://dummyimage.com/600x400/555/fff&text=Result+Receipt) |
 |:--:|:--:|
-| **Cheating Error** | **Game Receipt** |
-
-| ![Mobile View](https://dummyimage.com/300x600/444/fff&text=Mobile+Gameplay) |
-|:--:|
-| **Mobile Gameplay View** |
+| **Mobile Layout** | **Result Receipt** |
 
 ---
 
 ## 📝 Notes
 
-- 💾 Currently, the **receipt is only saved on the client side**. Server-side result saving is planned for future versions.
-- 🔒 Integrity features rely on browser APIs and may vary across devices/browsers.
+- 🛠 Some buttons may reset due to HTML export limitations from Framer  
+- ⚠️ Mobile responsiveness and transition optimization are still in progress  
 
 ---
 
 ## 🔗 Live Link
 
-[🌐 Try it live on Vercel](https://electrostatics-quiz.vercel.app/)
+[🌐 Try the Electrostatics Quiz](https://electrostatics-quiz.vercel.app)
 
 ---
 
 ## 👨‍💻 Author
 
-Made with ❤️ by **[Chai](https://github.com/ChristianDeoManlangit)**
+Made with ❤️ by [**Chai**](https://github.com/ChristianDeoManlangit)
