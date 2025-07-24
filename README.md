@@ -31,25 +31,21 @@ A one-attempt-only system is implemented, backed by an anti-cheat detection feat
 
 ## 🖼️ Screenshots
 
-| ![Start](https://dummyimage.com/600x400/000/fff&text=Start+Screen) | ![Gameplay1](https://dummyimage.com/600x400/111/fff&text=Gameplay+1) |
-|:--:|:--:|
-| **Start Screen** | **Gameplay 1** |
+| Start Screen |
+|-----------|
+| ![Start Screen](https://github.com/ChristianDeoManlangit/Electrostatics-Quiz/blob/main/Assets/Start%20Screen.png?raw=true) |
 
-| ![Gameplay2](https://dummyimage.com/600x400/222/fff&text=Gameplay+2) | ![Gameplay3](https://dummyimage.com/600x400/333/fff&text=Gameplay+3) |
+| ![Gameplay 1](https://github.com/ChristianDeoManlangit/Electrostatics-Quiz/blob/main/Assets/Gameplay%201.png?raw=true) | ![Gameplay 2](https://github.com/ChristianDeoManlangit/Electrostatics-Quiz/blob/main/Assets/Gameplay%202.png?raw=true) |
 |:--:|:--:|
-| **Gameplay 2** | **Gameplay 3** |
+| **Gameplay 1** | **Gameplay 2** |
 
-| ![Error](https://dummyimage.com/600x400/444/fff&text=Error+Message) | ![AntiCheat](https://dummyimage.com/600x400/555/fff&text=Anti-Cheat+Measure) |
+| ![Error](https://github.com/ChristianDeoManlangit/Electrostatics-Quiz/blob/main/Assets/Error%20Message.png?raw=true) | ![AntiCheat](https://github.com/ChristianDeoManlangit/Electrostatics-Quiz/blob/main/Assets/Cheat.png?raw=true) |
 |:--:|:--:|
 | **Error Message** | **Anti-Cheating Measure** |
 
-| ![Result](https://dummyimage.com/600x400/666/fff&text=Result+Page) | ![Receipt](https://dummyimage.com/600x400/777/fff&text=Receipt) |
+| ![Result](https://github.com/ChristianDeoManlangit/Electrostatics-Quiz/blob/main/Assets/Results.png?raw=true) | ![Receipt](https://github.com/ChristianDeoManlangit/Electrostatics-Quiz/blob/main/Assets/Reciept.png?raw=true) |
 |:--:|:--:|
 | **Results** | **Receipt** |
-
-| ![Mobile](https://dummyimage.com/300x600/888/fff&text=Mobile+Gameplay) |
-|:--:|
-| **Mobile Gameplay** |
 
 ---
 
